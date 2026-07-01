@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+  <title>ThreatFeed — Security Advisory Aggregator</title>
+  <link>https://example.com/threatfeed/</link>
+  <atom:link href="https://example.com/threatfeed/feed.xml" rel="self" type="application/rss+xml" />
+  <description>Curated feed of actively-exploited vulnerabilities, zero-days, supply chain compromises, and ongoing attack campaigns. Advisory/CVE-focused. Refreshed every 6 hours.</description>
+  <language>en-us</language>
+  <managingEditor>abhishek.sharma@coralogix.com (Abhishek Sharma)</managingEditor>
+  <generator>ThreatFeed Aggregator</generator>
+  <lastBuildDate>Thu, 02 Jul 2026 09:00:00 GMT</lastBuildDate>
+  <ttl>360</ttl>
+
+  <item>
+    <title>The Gentlemen Ransomware Leads June Activity — 9 New Victims</title>
+    <link>https://purple-ops.io/blog/ransomware-tracker-2026</link>
+    <guid isPermaLink="false">threatfeed-the-gentlemen-ransomware</guid>
+    <category>Ransomware / Campaign</category>
+    <dc:creator>PurpleOps</dc:creator>
+    <pubDate>Fri, 26 Jun 2026 09:00:00 GMT</pubDate>
+    <description><![CDATA[<strong>High</strong> · The Gentlemen ransomware group posted 9 new victims, heavily impacting healthcare and professional-services sectors globally. Source: PurpleOps.]]></description>
+  </item>
+
+  <item>
+    <title>World Leaks Posts 6 New Victims in 24 Hours</title>
+    <link>https://purple-ops.io/blog/ransomware-tracker-2026</link>
+    <guid isPermaLink="false">threatfeed-world-leaks-ransomware</guid>
+    <category>Ransomware / Campaign</category>
+    <dc:creator>PurpleOps</dc:creator>
+    <pubDate>Fri, 26 Jun 2026 08:30:00 GMT</pubDate>
+    <description><![CDATA[<strong>High</strong> · The World Leaks data-extortion group led recent activity with 6 new victims disclosed within 24 hours, alongside active groups PEAR and Akira. Source: PurpleOps.]]></description>
+  </item>
+
+  <item>
+    <title>PTC Windchill &amp; FlexPLM Improper Input Validation Added to CISA KEV (CVE-2026-12569)</title>
+    <link>https://www.cisa.gov/news-events/alerts/2026/06/25/cisa-adds-two-known-exploited-vulnerabilities-catalog</link>
+    <guid isPermaLink="false">threatfeed-cve-2026-12569</guid>
+    <category>Actively Exploited (KEV)</category>
+    <dc:creator>CISA</dc:creator>
+    <pubDate>Thu, 25 Jun 2026 09:00:00 GMT</pubDate>
+    <description><![CDATA[<strong>High · CVE-2026-12569 · CVSS 8.6</strong> · Improper input validation in PTC Windchill and FlexPLM. Added to the CISA Known Exploited Vulnerabilities catalog on June 25, 2026 based on evidence of active exploitation.]]></description>
+  </item>
+
+  <item>
+    <title>Cisco Unified Communications Manager SSRF Added to CISA KEV (CVE-2026-20230)</title>
+    <link>https://www.cisa.gov/news-events/alerts/2026/06/25/cisa-adds-two-known-exploited-vulnerabilities-catalog</link>
+    <guid isPermaLink="false">threatfeed-cve-2026-20230</guid>
+    <category>Actively Exploited (KEV)</category>
+    <dc:creator>CISA</dc:creator>
+    <pubDate>Thu, 25 Jun 2026 08:45:00 GMT</pubDate>
+    <description><![CDATA[<strong>High · CVE-2026-20230 · CVSS 8.2</strong> · Server-Side Request Forgery in Cisco Unified Communications Manager. Added to the CISA KEV catalog on June 25, 2026 on evidence of active exploitation.]]></description>
+  </item>
+
+  <item>
+    <title>Qilin Ransomware Affiliate Exploits Check Point VPN Flaw (CVE-2026-50751)</title>
+    <link>https://www.cyfirma.com/news/weekly-intelligence-report-26-jun-2026/</link>
+    <guid isPermaLink="false">threatfeed-cve-2026-50751</guid>
+    <category>Ransomware / Campaign</category>
+    <dc:creator>CYFIRMA</dc:creator>
+    <pubDate>Thu, 25 Jun 2026 08:15:00 GMT</pubDate>
+    <description><![CDATA[<strong>Critical · CVE-2026-50751 · CVSS 9.1</strong> · A Qilin ransomware affiliate is exploiting CVE-2026-50751 in Check Point VPNs for initial access, with a focus on network-infrastructure and supply chain vulnerabilities.]]></description>
+  </item>
+
+  <item>
+    <title>Unpatched SharePoint Servers Actively Exploited for Ransomware Deployment</title>
+    <link>https://threat-modeling.com/vulnerability-intelligence-report-june-25-2026/</link>
+    <guid isPermaLink="false">threatfeed-sharepoint-ransomware</guid>
+    <category>Ransomware / Campaign</category>
+    <dc:creator>Threat-Modeling.com</dc:creator>
+    <pubDate>Thu, 25 Jun 2026 08:00:00 GMT</pubDate>
+    <description><![CDATA[<strong>High</strong> · Unpatched on-prem SharePoint servers are being actively exploited as an initial-access vector for ransomware deployment. Patch and hunt for post-exploitation web shells.]]></description>
+  </item>
+
+  <item>
+    <title>Windows Netlogon RCE (CVE-2026-41089) Under Active Exploitation</title>
+    <link>https://threat-modeling.com/vulnerability-intelligence-report-june-25-2026/</link>
+    <guid isPermaLink="false">threatfeed-cve-2026-41089</guid>
+    <category>Critical RCE</category>
+    <dc:creator>Threat-Modeling.com</dc:creator>
+    <pubDate>Wed, 24 Jun 2026 09:00:00 GMT</pubDate>
+    <description><![CDATA[<strong>Critical · CVE-2026-41089 · CVSS 9.8</strong> · A critical Windows Netlogon remote code execution vulnerability now under active exploitation in the wild. Domain controllers are the primary target — patch immediately.]]></description>
+  </item>
+
+  <item>
+    <title>Malicious easy-day-js Package Injected into @mastra/* npm Org</title>
+    <link>https://blog.gitguardian.com/three-supply-chain-campaigns-hit-npm-pypi-and-docker-hub-in-48-hours/</link>
+    <guid isPermaLink="false">threatfeed-easy-day-js-mastra</guid>
+    <category>Supply Chain</category>
+    <dc:creator>GitGuardian</dc:creator>
+    <pubDate>Wed, 17 Jun 2026 09:00:00 GMT</pubDate>
+    <description><![CDATA[<strong>High</strong> · A coordinated supply chain attack pushed a malicious easy-day-js package into the dependency tree of the entire @mastra/* npm organization on June 17, 2026.]]></description>
+  </item>
+
+  <item>
+    <title>"RoguePlanet" Microsoft Defender Zero-Day — Patch In Progress</title>
+    <link>https://www.bleepingcomputer.com/news/microsoft/microsoft-working-on-defender-patch-for-rogueplanet-zero-day/</link>
+    <guid isPermaLink="false">threatfeed-rogueplanet-defender</guid>
+    <category>Zero-Day</category>
+    <dc:creator>BleepingComputer</dc:creator>
+    <pubDate>Mon, 15 Jun 2026 09:00:00 GMT</pubDate>
+    <description><![CDATA[<strong>High</strong> · Microsoft confirmed it is developing an out-of-band patch for the "RoguePlanet" Defender zero-day following reports of exploitation. Mitigations recommended until the fix ships.]]></description>
+  </item>
+
+  <item>
+    <title>Oracle PeopleSoft PeopleTools Zero-Day Exploited by ShinyHunters (CVE-2026-35273)</title>
+    <link>https://www.rapid7.com/blog/post/etr-active-exploitation-of-oracle-peoplesoft-zero-day-cve-2026-35273/</link>
+    <guid isPermaLink="false">threatfeed-cve-2026-35273</guid>
+    <category>Zero-Day</category>
+    <dc:creator>Rapid7</dc:creator>
+    <pubDate>Wed, 10 Jun 2026 09:00:00 GMT</pubDate>
+    <description><![CDATA[<strong>Critical · CVE-2026-35273 · CVSS 9.8</strong> · Unauthenticated SSRF-to-RCE in PeopleSoft Enterprise PeopleTools 8.61/8.62. Mandiant confirmed zero-day exploitation by ShinyHunters (UNC6240) against higher education between May 27 and June 9, 2026. Oracle published an out-of-band alert on June 10.]]></description>
+  </item>
+
+  <item>
+    <title>Cisco Catalyst SD-WAN Manager — 7th SD-WAN Zero-Day Exploited in 2026 (CVE-2026-20245)</title>
+    <link>https://www.securityweek.com/cisco-warns-of-7th-sd-wan-zero-day-exploited-in-2026/</link>
+    <guid isPermaLink="false">threatfeed-cve-2026-20245</guid>
+    <category>Actively Exploited (KEV)</category>
+    <dc:creator>SecurityWeek</dc:creator>
+    <pubDate>Tue, 09 Jun 2026 09:30:00 GMT</pubDate>
+    <description><![CDATA[<strong>Critical · CVE-2026-20245 · CVSS 9.8</strong> · Improper output encoding in Cisco Catalyst SD-WAN Manager allowing arbitrary command execution as root — the seventh Cisco SD-WAN zero-day exploited in 2026. Added to CISA KEV on June 9.]]></description>
+  </item>
+
+  <item>
+    <title>Windows Kernel Wormable RCE (CVE-2026-45657, CVSS 9.8)</title>
+    <link>https://www.thezdi.com/blog/2026/6/9/the-june-2026-security-update-review</link>
+    <guid isPermaLink="false">threatfeed-cve-2026-45657</guid>
+    <category>Critical RCE</category>
+    <dc:creator>Zero Day Initiative</dc:creator>
+    <pubDate>Tue, 09 Jun 2026 09:15:00 GMT</pubDate>
+    <description><![CDATA[<strong>Critical · CVE-2026-45657 · CVSS 9.8</strong> · Windows Kernel RCE allowing remote, unauthenticated code execution at SYSTEM with no user interaction. Rated wormable — prioritize patching. Fixed in June 2026 Patch Tuesday.]]></description>
+  </item>
+
+  <item>
+    <title>Windows HTTP.sys Unauthenticated RCE (CVE-2026-47291, CVSS 9.8)</title>
+    <link>https://www.thezdi.com/blog/2026/6/9/the-june-2026-security-update-review</link>
+    <guid isPermaLink="false">threatfeed-cve-2026-47291</guid>
+    <category>Critical RCE</category>
+    <dc:creator>Zero Day Initiative</dc:creator>
+    <pubDate>Tue, 09 Jun 2026 09:10:00 GMT</pubDate>
+    <description><![CDATA[<strong>Critical · CVE-2026-47291 · CVSS 9.8</strong> · Remote, unauthenticated code execution in HTTP.sys with no user interaction. Any internet-facing Windows host running the HTTP protocol stack is at risk. Fixed in June 2026 Patch Tuesday.]]></description>
+  </item>
+
+  <item>
+    <title>Windows DHCP Client Service RCE (CVE-2026-44815, CVSS 9.8)</title>
+    <link>https://www.thezdi.com/blog/2026/6/9/the-june-2026-security-update-review</link>
+    <guid isPermaLink="false">threatfeed-cve-2026-44815</guid>
+    <category>Critical RCE</category>
+    <dc:creator>Zero Day Initiative</dc:creator>
+    <pubDate>Tue, 09 Jun 2026 09:05:00 GMT</pubDate>
+    <description><![CDATA[<strong>Critical · CVE-2026-44815 · CVSS 9.8</strong> · Remote code execution in the Windows DHCP Client Service. Fixed in the record June 2026 Patch Tuesday release.]]></description>
+  </item>
+
+  <item>
+    <title>Microsoft Defender Elevation-of-Privilege Zero-Day Actively Exploited (CVE-2026-41091)</title>
+    <link>https://thehackernews.com/2026/06/microsoft-patches-record-206-flaws.html</link>
+    <guid isPermaLink="false">threatfeed-cve-2026-41091</guid>
+    <category>Zero-Day</category>
+    <dc:creator>The Hacker News</dc:creator>
+    <pubDate>Tue, 09 Jun 2026 08:50:00 GMT</pubDate>
+    <description><![CDATA[<strong>High · CVE-2026-41091 · CVSS 7.8</strong> · Elevation-of-privilege in Microsoft Defender, exploited in the wild and patched in the record-breaking June 2026 Patch Tuesday (206 CVEs). Flagged as the most urgent zero-day of the month.]]></description>
+  </item>
+
+  <item>
+    <title>Arista EOS Incomplete Comparison Vulnerability Added to CISA KEV (CVE-2026-7473)</title>
+    <link>https://www.cisa.gov/news-events/alerts/2026/06/09/cisa-adds-three-known-exploited-vulnerabilities-catalog</link>
+    <guid isPermaLink="false">threatfeed-cve-2026-7473</guid>
+    <category>Actively Exploited (KEV)</category>
+    <dc:creator>CISA</dc:creator>
+    <pubDate>Tue, 09 Jun 2026 08:40:00 GMT</pubDate>
+    <description><![CDATA[<strong>High · CVE-2026-7473 · CVSS 7.5</strong> · Incomplete comparison with missing factors in Arista Extensible Operating System (EOS). Added to the CISA KEV catalog on June 9, 2026.]]></description>
+  </item>
+
+  <item>
+    <title>Google Chrome V8 Zero-Day Exploited in the Wild (CVE-2026-11645)</title>
+    <link>https://thehackernews.com/2026/06/chrome-v8-zero-day-cve-2026-11645.html</link>
+    <guid isPermaLink="false">threatfeed-cve-2026-11645</guid>
+    <category>Zero-Day</category>
+    <dc:creator>The Hacker News</dc:creator>
+    <pubDate>Mon, 08 Jun 2026 09:00:00 GMT</pubDate>
+    <description><![CDATA[<strong>High · CVE-2026-11645 · CVSS 8.8</strong> · Out-of-bounds read/write in the V8 JavaScript engine with an exploit in the wild. Google shipped an emergency Chrome update on June 8, 2026. CISA added it to KEV on June 9.]]></description>
+  </item>
+
+  <item>
+    <title>Mirasvit Full Page Cache Warmer Deserialization Added to CISA KEV (CVE-2026-45247)</title>
+    <link>https://www.cisa.gov/news-events/alerts/2026/06/03/cisa-adds-one-known-exploited-vulnerability-catalog</link>
+    <guid isPermaLink="false">threatfeed-cve-2026-45247</guid>
+    <category>Actively Exploited (KEV)</category>
+    <dc:creator>CISA</dc:creator>
+    <pubDate>Wed, 03 Jun 2026 09:00:00 GMT</pubDate>
+    <description><![CDATA[<strong>High · CVE-2026-45247 · CVSS 8.1</strong> · Deserialization of untrusted data in the Mirasvit Full Page Cache Warmer (Magento/Adobe Commerce extension). Added to the CISA KEV catalog on June 3, 2026.]]></description>
+  </item>
+
+  <item>
+    <title>Miasma Crosses Ecosystems: 73 Azure Repos Disabled, 37 Malicious PyPI Wheels</title>
+    <link>https://phoenix.security/miasma-azure-hades-pypi-supply-chain-worm-2026/</link>
+    <guid isPermaLink="false">threatfeed-miasma-azure-pypi</guid>
+    <category>Supply Chain</category>
+    <dc:creator>Phoenix Security</dc:creator>
+    <pubDate>Tue, 02 Jun 2026 09:00:00 GMT</pubDate>
+    <description><![CDATA[<strong>Critical</strong> · GitHub enforcement disabled 73 Microsoft Azure repositories in 105 seconds after AI coding-agent hooks were planted in Azure/durabletask. The worm then dropped 37 malicious PyPI wheels across 19 packages using .pth startup hooks that steal credentials on every Python invocation. Actor: TeamPCP (UNC6780).]]></description>
+  </item>
+
+  <item>
+    <title>Miasma: Self-Spreading npm Worm Hooks 13 AI Coding Tools (TeamPCP / UNC6780)</title>
+    <link>https://blog.gitguardian.com/three-supply-chain-campaigns-hit-npm-pypi-and-docker-hub-in-48-hours/</link>
+    <guid isPermaLink="false">threatfeed-miasma-worm</guid>
+    <category>Supply Chain</category>
+    <dc:creator>GitGuardian</dc:creator>
+    <pubDate>Mon, 01 Jun 2026 09:00:00 GMT</pubDate>
+    <description><![CDATA[<strong>Critical</strong> · A self-spreading worm injecting into the SessionStart hooks of 13 AI coding tools (Claude Code, GitHub Copilot, Gemini CLI), forging SLSA provenance to pass npm audit, using GitHub as a C2 channel, and shipping a DEADMAN_SWITCH that wipes developer machines if tokens are revoked. Compromised 32 packages under the @redhat-cloud-services npm namespace on June 1.]]></description>
+  </item>
+
+  <item>
+    <title>Mini Shai-Hulud: 170+ npm &amp; PyPI Packages Backdoored (CVE-2026-45321)</title>
+    <link>https://www.securityweek.com/over-100-npm-pypi-packages-hit-in-new-shai-hulud-supply-chain-attacks/</link>
+    <guid isPermaLink="false">threatfeed-cve-2026-45321</guid>
+    <category>Supply Chain</category>
+    <dc:creator>SecurityWeek</dc:creator>
+    <pubDate>Sat, 23 May 2026 09:00:00 GMT</pubDate>
+    <description><![CDATA[<strong>High · CVE-2026-45321 · CVSS 8.6</strong> · A new wave of Shai-Hulud supply chain attacks hit 170+ npm and PyPI packages, harvesting developer and CI/CD credentials.]]></description>
+  </item>
+
+</channel>
+</rss>
